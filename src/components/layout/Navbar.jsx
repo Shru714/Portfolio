@@ -35,9 +35,9 @@ const Navbar = () => {
             className="flex items-center space-x-2 text-xl font-bold text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
           >
             <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">D</span>
+              <span className="text-white font-bold text-sm">S</span>
             </div>
-            <span>Developer</span>
+            <span>Shruti</span>
           </Link>
 
           {/* Desktop Navigation */}

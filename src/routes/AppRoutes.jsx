@@ -5,7 +5,6 @@ import { Routes, Route } from 'react-router-dom'
 const Home = lazy(() => import('../pages/Home'))
 const About = lazy(() => import('../pages/About'))
 const Projects = lazy(() => import('../pages/Projects'))
-const Services = lazy(() => import('../pages/Services'))
 const Contact = lazy(() => import('../pages/Contact'))
 const NotFound = lazy(() => import('../pages/NotFound'))
 
@@ -15,7 +14,6 @@ const AppRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<Projects />} />
-      <Route path="/services" element={<Services />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>

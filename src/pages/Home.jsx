@@ -26,7 +26,7 @@ const Home = () => {
               >
                 Hi, I'm{' '}
                 <span className="text-gradient">
-                  John Doe
+                  Shruti
                 </span>
               </motion.h1>
               
@@ -126,7 +126,7 @@ const Home = () => {
                 
                 {/* Profile placeholder or actual image */}
                 <div className="relative z-10 w-80 h-80 mx-auto bg-gradient-to-br from-primary-500 to-purple-600 rounded-full flex items-center justify-center shadow-2xl">
-                  <div className="text-white text-6xl font-bold">JD</div>
+                  <div className="text-white text-6xl font-bold">S</div>
                 </div>
                 
                 {/* Floating elements */}

@@ -2,7 +2,7 @@
 export const APP_CONFIG = {
   name: import.meta.env.VITE_APP_TITLE || 'Developer Portfolio',
   description: import.meta.env.VITE_APP_DESCRIPTION || 'Professional portfolio showcasing my development skills and projects',
-  author: 'Your Name',
+  author: 'Shruti',
   email: import.meta.env.VITE_CONTACT_EMAIL || 'your.email@example.com',
   github: import.meta.env.VITE_GITHUB_URL || 'https://github.com/yourusername',
   linkedin: import.meta.env.VITE_LINKEDIN_URL || 'https://linkedin.com/in/yourusername',
@@ -14,7 +14,6 @@ export const NAV_LINKS = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
   { name: 'Projects', path: '/projects' },
-  { name: 'Services', path: '/services' },
   { name: 'Contact', path: '/contact' },
 ]
 

@@ -42,12 +42,10 @@ my-portfolio/
 │   │   ├── About.jsx
 │   │   ├── Projects.jsx
 │   │   ├── Contact.jsx
-│   │   ├── Services.jsx
 │   │   └── NotFound.jsx
 │   ├── data/
 │   │   ├── projects.js
-│   │   ├── skills.js
-│   │   └── services.js
+│   │   └── skills.js
 │   ├── hooks/
 │   │   ├── useTheme.js
 │   │   └── useScrollAnimation.js
@@ -142,7 +140,7 @@ my-portfolio/
    ]
    ```
 
-3. **Update skills** in `src/data/skills.js`:
+4. **Update skills** in `src/data/skills.js`:
    ```javascript
    export const skillsData = {
      frontend: [
@@ -150,18 +148,6 @@ my-portfolio/
        // ... your skills
      ]
    }
-   ```
-
-4. **Customize services** in `src/data/services.js`:
-   ```javascript
-   export const servicesData = [
-     {
-       id: 1,
-       title: 'Your Service',
-       description: 'Service description',
-       // ... service details
-     }
-   ]
    ```
 
 ### Styling & Theme
@@ -182,7 +168,6 @@ my-portfolio/
 - **Home**: Hero section with introduction and call-to-action
 - **About**: Personal bio, skills, and experience timeline
 - **Projects**: Portfolio showcase with filtering capabilities
-- **Services**: Professional services offered
 - **Contact**: Contact form and information
 - **404**: Custom not found page
 

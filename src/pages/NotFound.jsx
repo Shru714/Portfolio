@@ -99,12 +99,6 @@ const NotFound = () => {
                 My Projects
               </Link>
               <Link 
-                to="/services" 
-                className="text-primary-600 dark:text-primary-400 hover:underline"
-              >
-                Services
-              </Link>
-              <Link 
                 to="/contact" 
                 className="text-primary-600 dark:text-primary-400 hover:underline"
               >

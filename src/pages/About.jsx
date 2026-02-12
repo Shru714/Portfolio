@@ -46,7 +46,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-300">
                 <p>
-                  Hello! I'm John, a passionate full-stack developer based in San Francisco. 
+                  Hello! I'm Shruti, a passionate full-stack developer based in San Francisco. 
                   My journey into web development started 5 years ago when I built my first 
                   website and fell in love with the process of bringing ideas to life through code.
                 </p>
